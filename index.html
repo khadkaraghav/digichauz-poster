@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digichauz Poster</title>
+<meta name="description" content="Digichauz Poster is the private publishing tool behind DigiChauz, a Nepali language content platform.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --ink: #1c1b1a;
+    --muted: #5f5b57;
+    --rule: #e4e0da;
+    --accent: #a8132e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151413;
+      --ink: #f1eeea;
+      --muted: #aaa49d;
+      --rule: #34312e;
+      --accent: #ff93a5;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: clamp(48px, 12vh, 112px) 16px 48px;
+  }
+  h1 {
+    margin: 0 0 12px;
+    font-size: clamp(2.1rem, 7vw, 2.9rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  .lead { margin: 0 0 32px; font-size: 1.2rem; color: var(--muted); }
+  h2 { margin: 36px 0 8px; font-size: 1.05rem; }
+  p { margin: 0 0 16px; }
+  ul { margin: 0 0 16px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  footer p { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Digichauz Poster</h1>
+  <p class="lead">The private publishing tool behind DigiChauz, a Nepali language content platform.</p>
+
+  <p>Digichauz Poster sends finished DigiChauz videos to our YouTube channel, so each one goes out on time without being posted by hand. It signs in with Google and only acts on the YouTube channel its owner connects.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Uploads finished videos to the connected YouTube channel</li>
+    <li>Sets each video's title, description and publish time</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>This tool is used by the DigiChauz team to manage our own channel. It is not open for public sign up.</p>
+
+  <footer>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+    <p>Questions? <a href="mailto:raghavnsarojpodcast@gmail.com">raghavnsarojpodcast@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
